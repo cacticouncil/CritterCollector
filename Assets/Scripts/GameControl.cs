@@ -110,7 +110,7 @@ public class GameControl : MonoBehaviour
 
     private IEnumerator SpawnAnimalsCoroutine(float longitude, float latitude)
     {
-        string uri = "https://senior-project-backend-server.herokuapp.com/api/get-spawn?"
+        string uri = "https://crittercollector.herokuapp.com/api/get-spawn?"
             + "lat=" + latitude
             + "&long=" + longitude;
         Debug.Log(uri);
